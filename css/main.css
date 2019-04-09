@@ -1778,7 +1778,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4bd0d4;
+  background: #0e039f;
 }
 .feed-link,
 .chat {
@@ -1972,6 +1972,9 @@ pre .javascript .function {
   50%, 70% {
     transform: scale(1.1);
   }
+}
+i.fa {
+  font-family: FontAwesome !important;
 }
 .local-search-pop-overlay {
   position: fixed;
@@ -2941,4 +2944,11 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.post {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  padding: 2px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
